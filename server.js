@@ -17,7 +17,7 @@ const db = knex({
     ssl: true,
    
   }
-});
+})
 
 db.select('*').from('users').then(data =>{
 });
